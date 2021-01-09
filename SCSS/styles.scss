@@ -1,0 +1,17 @@
+$color-primary: pink;
+$color-white: orange;
+
+.card {
+    background-color: $color-primary;
+    padding: 15px;
+    width: 300px;
+    height: 200px;
+    .heading {
+        font-size: 18px;
+        color: $color-white
+    }
+    .description {
+        font-size: 12px;
+        color: $color-white;
+    }
+}

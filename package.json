@@ -1,0 +1,19 @@
+{
+  "name": "sassseries",
+  "version": "1.0.0",
+  "description": "Learning sass",
+  "main": "index.js",
+  "scripts": {
+    "compile-sass": "node-sass scss/styles.scss css/styles.css -w"
+  },
+  "keywords": [
+    "Sss",
+    "Learn",
+    "Sass"
+  ],
+  "author": "Shubham Ji",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
